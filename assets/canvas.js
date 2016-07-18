@@ -30,7 +30,7 @@ function draw() {
     var canvasWidth = canvas.width;
     var canvasHeight = canvas.height;
 
-    var circle = {'x': 200, 'y': 200, 'xVel': 1, 'yVel': 5, 'diameter': 200};
+    var circle = {'x': 200, 'y': 200, 'xVel': 50, 'yVel': 5, 'diameter': 200};
 
     var requestAnimationFrame =
         window.requestAnimationFrame ||
